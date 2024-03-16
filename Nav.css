@@ -1,0 +1,88 @@
+
+
+header {
+  width: 100vw;
+  height: auto;
+  background-color: rgb(26, 26, 26);
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(248, 248, 248);
+  color: black;
+}
+
+nav h2 {
+  text-shadow: 0px 2px gray;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  user-select: none;
+  margin-top: 10px;
+}
+
+#Third {
+  width: 100%;
+  max-width: 30rem; /* Limit width on larger screens */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+#Third input {
+  flex: 1;
+  padding: 8px 20px;
+  padding-left: 35px;
+  background-color: #d2d7d4;
+  box-shadow: 0px -2px rgb(169, 168, 168);
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+#SearchLogo {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#Third input::placeholder {
+  color: rgb(169, 168, 168);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#Third div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Third {
+    max-width: none; /* Remove max-width */
+    width: calc(100% - 20px); /* Adjust width for smaller screens */
+  }
+}
+
+

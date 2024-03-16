@@ -1,0 +1,534 @@
+/*#Home
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 80vh;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #d2d7d4;
+}
+
+
+#First
+{
+    min-width: 500px;
+    flex: 1;
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 1.5rem;
+}
+
+#FirstContent
+{
+    padding-left: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+ 
+    max-width: 500px;
+    color: rgb(51, 50, 50);
+}
+
+#FirstContent h2{
+    font-size: 3rem;
+}
+#FirstContent p
+{
+    font-size: .8rem;
+    color: gray;
+   
+}
+
+#FirstContent button
+{
+    width: 8rem;
+    height: 2.3rem;
+    font-size: .9rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    align-self: start;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    
+}
+
+
+#FirstContent section
+{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#FirstContent section span
+{
+    height: 100%;
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+}
+
+
+
+
+#Second
+{
+    min-width: 500px;
+    /* flex: 1; */
+
+    /*background-image: url("./Media/HomeImg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    #Home {
+        height: auto;
+    }
+
+    #First,
+    #Second {
+        min-width: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #FirstContent {
+        padding: 0;
+        text-align: center;
+    }
+
+    #FirstContent h2 {
+        font-size: 2rem;
+    }
+
+    #FirstContent button {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}*/
+
+/*#Home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 80vh;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #d2d7d4;
+}
+
+#First {
+    min-width: 500px;
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 1.5rem;
+}
+
+#FirstContent {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 500px;
+    color: rgb(51, 50, 50);
+}
+
+#FirstContent h2 {
+    font-size: 3rem;
+}
+
+#FirstContent p {
+    font-size: .8rem;
+    color: gray;
+}
+
+#FirstContent button {
+    width: 8rem;
+    height: 2.3rem;
+    font-size: .9rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    align-self: start;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+#FirstContent section {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#FirstContent section span {
+    height: 100%;
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+}
+
+#Second {
+    min-width: 750px;
+    background-image: url("./Media/images2.png");
+    background-position: center;
+    background-size: cover;
+}*/
+
+/* Media Query for responsiveness */
+/*@media screen and (max-width: 768px) {
+    #Home {
+        height:auto ;
+    }
+
+    #First,
+    #Second {
+        min-width: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #FirstContent {
+        padding: 0;
+        text-align: center;
+    }
+
+    #FirstContent h2 {
+        font-size: 2rem;
+    }
+
+    #FirstContent button {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}*/
+
+
+
+/*#Home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 80vh;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #e6e3e3;
+}
+
+#First {
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 1.5rem;
+}
+
+#FirstContent {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 500px;
+    color: rgb(51, 50, 50);
+}
+
+#FirstContent h2 {
+    font-size: 3rem;
+}
+
+#FirstContent p {
+    font-size: .8rem;
+    color: gray;
+}
+
+#FirstContent button {
+    width: 8rem;
+    height: 2.3rem;
+    font-size: .9rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    align-self: start;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+#FirstContent section {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#FirstContent section span {
+    height: 100%;
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+}
+
+#Second {
+    min-width: 750px;
+    background-image: url("./Media/images2.png");
+    
+    background-position: center;
+    background-size: cover;
+}
+
+/* Media Query for responsiveness */
+/*@media screen and (max-width: 768px) {
+    #Home {
+        height: auto;
+    }
+
+    #First,
+    #Second {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    #FirstContent {
+        padding: 0;
+        text-align: center;
+    }
+
+    #FirstContent h2 {
+        font-size: 2rem;
+    }
+
+    #FirstContent button {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    #FirstContent section span {
+        border-right: none;
+        padding-right: 0;
+    }
+}*/
+
+
+
+/* Home.css */
+
+/*#Home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 80vh;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #d2d7d4;
+}
+
+#First {
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 1.5rem;
+}
+
+#FirstContent {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 500px;
+    color: rgb(51, 50, 50);
+}
+
+#FirstContent h2 {
+    font-size: 3rem;
+}
+
+#FirstContent p {
+    font-size: .8rem;
+    color: gray;
+}
+
+#FirstContent button {
+    width: 8rem;
+    height: 2.3rem;
+    font-size: .9rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    align-self: start;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+#FirstContent section {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#FirstContent section span {
+    height: 100%;
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+}
+
+#Second {
+    min-width: 750px;
+    background-image: url("./Media/images2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Media Query for responsiveness */
+/*@media screen and (max-width: 768px) {
+    #Home {
+        height: auto;
+    }
+
+    #First,
+    #Second {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    #FirstContent {
+        padding: 0;
+        text-align: center;
+    }
+
+    #FirstContent h2 {
+        font-size: 2rem;
+    }
+
+    #FirstContent button {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    #FirstContent section span {
+        border-right: none;
+        padding-right: 0;
+    }
+}*/
+
+
+/* Home.css */
+
+#Home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #d2d7d4;
+  }
+  
+  #First {
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  
+  #FirstContent {
+    max-width: 500px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(51, 50, 50);
+  }
+  
+  #FirstContent h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  #FirstContent p {
+    font-size: 0.8rem;
+    color: gray;
+    text-align: center;
+  }
+  
+  #FirstContent button {
+    width: 8rem;
+    height: 2.3rem;
+    font-size: 0.9rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    margin-top: 1.5rem;
+  }
+  
+  #FirstContent section {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  #FirstContent section span {
+    height: 100%;
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+  }
+  
+  #Second {
+    flex: 1;
+    
+    background-image: url("./Media/HomeImg.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #FirstContent {
+      padding: 0 1rem;
+    }
+  
+    #FirstContent h2 {
+      font-size: 2rem;
+    }
+  
+    #FirstContent button {
+      margin-top: 1rem;
+    }
+  
+    #FirstContent section span {
+      border-right: none;
+      padding-right: 0;
+    }
+  }
+  
+
+
+
